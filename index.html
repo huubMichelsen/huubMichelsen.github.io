@@ -1,62 +1,402 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML Table</title>
-    <style>
-        table {
-            width: 75%;
-            border-collapse: collapse;
-        }
-        th, td {
-            border: 5px solid black;
-            padding: 8px;
-            text-align: left;
-        }
-        th {
-            background-color: #f2f2f2;
-        }
-    </style>
-</head>
-<body>
-
-<h2>Sample HTML Tabbb</h2>
-<img src="Untitled.png" alt="vedy">
-<table>
-
-    <thead>
-        <tr>
-            <th>Vemby 1</th>
-            <th>Bemby 2</th>
-            <th>Bemvy 3</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>Wendys 1</td>
-            <td>Endy 2</td>
-            <td>Bedny 3</td>
-        </tr>
-        <tr>
-            <td>AMY 4</td>
-            <td>hm 5</td>
-            <td>Data 6</td>
-        </tr>
-        <tr>
-            <td>Data 7</td>
-            <td>Data 8</td>
-            <td>Data 9</td>
-        </tr>
-    </tbody>
-</table>
-
-</body>
-</html>
-
-<script>
-const cells = document.querySelectorAll('th,td');
-console.log(cells);
-console.log(document.documentElement);
-</script>
-
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="stylopis.css" type="text/css"?>
+<jidelnicek
+  xmlns="tohleXML"
+  xmlns:alergeny="http://alerge.ny/alergeny">
+  <od19_2>
+    <tyden>Týden od 19.2.do 23.2.2024</tyden>
+    <Pondělí>
+      <den>Pondělí</den>
+      <hlavní_jídla>
+        <typ_jidla>Hlavní jídla</typ_jidla>
+        <hj1>
+          <název>Vepřová plec v mrkvi, vařený brambor</název>
+          <alergeny:alergen>A1,A7</alergeny:alergen>
+          <cena>128 Kč</cena>
+          <porce>150g</porce>
+        </hj1>
+        <hj2>
+          <název>Fazolové lusky v indické omáčce tandoori masala a jasmínovou rýží</název>
+          <alergeny:alergen>A1,A7</alergeny:alergen>
+          <cena>120 Kč</cena>
+          <porce>350g</porce>
+        </hj2>
+        <hj3>
+          <název>Chorvatská pljeskavica, pečený brambor, majonéza s uzeným chilli</název>
+          <alergeny:alergen>A1,A3,A7</alergeny:alergen>
+          <cena>135 Kč</cena>
+          <porce>150g</porce>
+        </hj3>
+        <hj4>
+          <název>Kuřecí steak, grilovaná kořenová zelenina, dušený kuskus</název>
+          <alergeny:alergen>A1,A9</alergeny:alergen>
+          <cena>145 Kč</cena>
+          <porce>150g</porce>
+        </hj4>
+      </hlavní_jídla>
+      <polévka>
+        <typ_jidla>polévka</typ_jidla>
+        <p1>
+          <název>Hráškový krém se smetanou</název>
+          <alergeny:alergen>A1,A7</alergeny:alergen>
+          <cena>28 Kč</cena>
+          <porce>0,25l</porce>
+        </p1>
+      </polévka>
+    </Pondělí>
+    <Úterý>
+      <den>Úterý</den>
+      <hlavní_jídla>
+        <typ_jidla>Hlavní jídla</typ_jidla>
+        <hj1>
+          <název>Halušky se zelím a uzeným masem</název>
+          <alergeny:alergen>A1,A3,A7</alergeny:alergen>
+          <cena>128 Kč</cena>
+          <porce>400g</porce>
+        </hj1>
+        <hj2>
+          <název>Fusilli se sušenými tomaty, cuketou, kapary a parmezánem</název>
+          <alergeny:alergen>A1,A3,A7</alergeny:alergen>
+          <cena>120 Kč</cena>
+          <porce>380g</porce>
+        </hj2>
+        <hj3>
+          <název>Vepřová roláda plněná sýrem a špenátem, bramborová kaše</název>
+          <alergeny:alergen>A1,A7</alergeny:alergen>
+          <cena>135 Kč</cena>
+          <porce>150g</porce>
+        </hj3>
+        <hj4>
+          <název>PHO-BO s hovězím masem, rýžovými nudlemi a zeleninou</název>
+          <alergeny:alergen>A2,A4,A6,A9,A11,A13,A14</alergeny:alergen>
+          <cena>145 Kč</cena>
+          <porce>0,4l</porce>
+        </hj4>
+      </hlavní_jídla>
+      <polévka>
+        <typ_jidla>polévka</typ_jidla>
+        <p1>
+          <název>Cizrnová polévka s kokosovým mlékem a koriandrem</název>
+          <alergeny:alergen>A1,A7</alergeny:alergen>
+          <cena>28 Kč</cena>
+          <porce>0,25l</porce>
+        </p1>
+      </polévka>
+    </Úterý>
+    <Středa>
+      <den>Středa</den>
+      <hlavní_jídla>
+        <typ_jidla>Hlavní jídla</typ_jidla>
+        <hj1>
+          <název>Smažený karbanátek, domácí bramborový salát</název>
+          <alergeny:alergen>A1,A3,A7,A9,A10</alergeny:alergen>
+          <cena>128 Kč</cena>
+          <porce>150g</porce>
+        </hj1>
+        <hj2>
+          <název>Penne pesto Genovese se sýrem gouda</název>
+          <alergeny:alergen>A1,A3,A7</alergeny:alergen>
+          <cena>120 Kč</cena>
+          <porce>380g</porce>
+        </hj2>
+        <hj3>
+          <název>Hovězí na houbách, houskový knedlík</název>
+          <alergeny:alergen>A1,A3,A7</alergeny:alergen>
+          <cena>135 Kč</cena>
+          <porce>150g</porce>
+        </hj3>
+        <hj4>
+          <název>Vepřové Vindaloo, jasmínová rýže</název>
+          <alergeny:alergen>A1,A2,A4,A6,A14</alergeny:alergen>
+          <cena>145 Kč</cena>
+          <porce>150g</porce>
+        </hj4>
+      </hlavní_jídla>
+      <polévka>
+        <typ_jidla>polévka</typ_jidla>
+        <p1>
+          <název>Hovězí vývar s masem a nudlemi</název>
+          <alergeny:alergen>A1,A9</alergeny:alergen>
+          <cena>28 Kč</cena>
+          <porce>0,25l</porce>
+        </p1>
+      </polévka>
+    </Středa>
+    <Čtvrtek>
+      <den>Čtvrtek</den>
+      <hlavní_jídla>
+        <typ_jidla>Hlavní jídla</typ_jidla>
+        <hj1>
+          <název>Drůbeží játra na portském víně, dušená rýže</název>
+          <alergeny:alergen>A1,A12</alergeny:alergen>
+          <cena>128 Kč</cena>
+          <porce>170g</porce>
+        </hj1>
+        <hj2>
+          <název>Bavorské vdolečky s povidly, tvarohem a šlehačkou</název>
+          <alergeny:alergen>A1,A3,A7</alergeny:alergen>
+          <cena>120 Kč</cena>
+          <porce>3ks</porce>
+        </hj2>
+        <hj3>
+          <název>Špagety s boloňskou omáčkou a parmezánem</název>
+          <alergeny:alergen>A1,A3,A7</alergeny:alergen>
+          <cena>135 Kč</cena>
+          <porce>380g</porce>
+        </hj3>
+        <hj4>
+          <název>Pstruh lososovitý, medovo hořčicová omáčka, pečené grenaille</název>
+          <alergeny:alergen>A4,A7,A10</alergeny:alergen>
+          <cena>145 Kč</cena>
+          <porce>130g</porce>
+        </hj4>
+      </hlavní_jídla>
+      <polévka>
+        <typ_jidla>polévka</typ_jidla>
+        <p1>
+          <název>Zelňačka</název>
+          <alergeny:alergen>A1,A7</alergeny:alergen>
+          <cena>28 Kč</cena>
+          <porce>0,25l</porce>
+        </p1>
+      </polévka>
+    </Čtvrtek>
+    <Pátek>
+      <den>Pátek</den>
+      <hlavní_jídla>
+        <typ_jidla>Hlavní jídla</typ_jidla>
+        <hj1>
+          <název>Vepřový guláš s majoránkou, houskový knedlík</název>
+          <alergeny:alergen>A1,A3,A7</alergeny:alergen>
+          <cena>128 Kč</cena>
+          <porce>150g</porce>
+        </hj1>
+        <hj2>
+          <název>Rizoto Arborio s pečenou dýní, balkánským sýrem a bazalkovým pestem</název>
+          <alergeny:alergen>A7</alergeny:alergen>
+          <cena>120 Kč</cena>
+          <porce>430g</porce>
+        </hj2>
+        <hj3>
+          <název>Pikantní masová směs, dušená rýže</název>
+          <alergeny:alergen>A1,A3,A6</alergeny:alergen>
+          <cena>135 Kč</cena>
+          <porce>150g</porce>
+        </hj3>
+        <hj4>
+          <název>Kuřecí stripsy v kukuřičné strouhance, pečený brambor, pikantní dip</název>
+          <alergeny:alergen>A1,A3,A7,A10</alergeny:alergen>
+          <cena>145 Kč</cena>
+          <porce>150g</porce>
+        </hj4>
+      </hlavní_jídla>
+      <polévka>
+        <typ_jidla>polévka</typ_jidla>
+        <p1>
+          <název>Smetanový krém se zeleninou</název>
+          <alergeny:alergen>A1,A7</alergeny:alergen>
+          <cena>28 Kč</cena>
+          <porce>0,25l</porce>
+        </p1>
+      </polévka>
+    </Pátek>
+  </od19_2>
+  <od26_2>
+    <tyden>Týden od 26.2.do 1.3.2024</tyden>
+    <Pondělí>
+      <den>Pondělí</den>
+      <hlavní_jídla>
+        <typ_jidla>Hlavní jídla</typ_jidla>
+        <hj1>
+          <název>Mexická vepřová plec s fazolemi a hráškem, dušená rýže</název>
+          <alergeny:alergen>A1</alergeny:alergen>
+          <cena>128 Kč</cena>
+          <porce>150g</porce>
+        </hj1>
+        <hj2>
+          <název>Sójové nudličky se zeleninou a žampióny, dušený bulgur</název>
+          <alergeny:alergen>A1,A6</alergeny:alergen>
+          <cena>120 Kč</cena>
+          <porce>250g</porce>
+        </hj2>
+        <hj3>
+          <název>Fusilli ve smetanové omáčce s kuřecím masem a pažitkou</název>
+          <alergeny:alergen>A1,A3,A7</alergeny:alergen>
+          <cena>135 Kč</cena>
+          <porce>400g</porce>
+        </hj3>
+        <hj4>
+          <název>Vepřový steak se slaninou a vídeňskou cibulkou, opečený brambor</název>
+          <alergeny:alergen>A1</alergeny:alergen>
+          <cena>145 Kč</cena>
+          <porce>150g</porce>
+        </hj4>
+      </hlavní_jídla>
+      <polévka>
+        <typ_jidla>polévka</typ_jidla>
+        <p1>
+          <název>Indická květáková polévka</název>
+          <alergeny:alergen>A1,A7</alergeny:alergen>
+          <cena>28 Kč</cena>
+          <porce>0,25l</porce>
+        </p1>
+      </polévka>
+    </Pondělí>
+    <Úterý>
+      <den>Úterý</den>
+      <hlavní_jídla>
+        <typ_jidla>Hlavní jídla</typ_jidla>
+        <hj1>
+          <název>Zabijačkový guláš „smažák“ s křenem a vařeným bramborem</název>
+          <alergeny:alergen>A1</alergeny:alergen>
+          <cena>128 Kč</cena>
+          <porce>150g</porce>
+        </hj1>
+        <hj2>
+          <název>Tofu v pikantní omáčce HOI SIN se zeleninou, jasmínová rýže</název>
+          <alergeny:alergen>A6</alergeny:alergen>
+          <cena>120 Kč</cena>
+          <porce>150g</porce>
+        </hj2>
+        <hj3>
+          <název>Špagety Carbonara s pancettou, vejcem a smetanou</název>
+          <alergeny:alergen>A1,A3,A7</alergeny:alergen>
+          <cena>135 Kč</cena>
+          <porce>400g</porce>
+        </hj3>
+        <hj4>
+          <název>Kuřecí gyros, smažené brambory, zelný salát, tzatziki dresink</název>
+          <alergeny:alergen>A7</alergeny:alergen>
+          <cena>145 Kč</cena>
+          <porce>150g</porce>
+        </hj4>
+      </hlavní_jídla>
+      <polévka>
+        <typ_jidla>polévka</typ_jidla>
+        <p1>
+          <název>Kroupová polévka s uzeným masem a zeleninou</název>
+          <alergeny:alergen>A1,A9</alergeny:alergen>
+          <cena>28 Kč</cena>
+          <porce>0,25l</porce>
+        </p1>
+      </polévka>
+    </Úterý>
+    <Středa>
+      <den>Středa</den>
+      <hlavní_jídla>
+        <typ_jidla>Hlavní jídla</typ_jidla>
+        <hj1>
+          <název>Smažený karbanátek s houbami, bramborová kaše</název>
+          <alergeny:alergen>A1,A3,A7</alergeny:alergen>
+          <cena>128 Kč</cena>
+          <porce>150g</porce>
+        </hj1>
+        <hj2>
+          <název>Libanonský kuskus s kandovaným ovocem a zeleninou, jogurtový dresink s mátou</název>
+          <alergeny:alergen>A1,A3,A7</alergeny:alergen>
+          <cena>120 Kč</cena>
+          <porce>380g</porce>
+        </hj2>
+        <hj3>
+          <název>Kuřecí stehno na divoko, houskový knedlík</název>
+          <alergeny:alergen>A1,A3,A7,A9</alergeny:alergen>
+          <cena>135 Kč</cena>
+          <porce>240g</porce>
+        </hj3>
+        <hj4>
+          <název>Vepřový steak, pečené brambory, fazolky na slanině</název>
+          <alergeny:alergen>A1</alergeny:alergen>
+          <cena>145 Kč</cena>
+          <porce>150g</porce>
+        </hj4>
+      </hlavní_jídla>
+      <polévka>
+        <typ_jidla>polévka</typ_jidla>
+        <p1>
+          <název>Kukuřičná polévka se smetanou</název>
+          <alergeny:alergen>A1,A7</alergeny:alergen>
+          <cena>28 Kč</cena>
+          <porce>0,25l</porce>
+        </p1>
+      </polévka>
+    </Středa>
+    <Čtvrtek>
+      <den>Čtvrtek</den>
+      <hlavní_jídla>
+        <typ_jidla>Hlavní jídla</typ_jidla>
+        <hj1>
+          <název>Tyrolská kuřecí jatýrka na víně s žampióny a smetanou, dušená rýže</název>
+          <alergeny:alergen>A1,A7</alergeny:alergen>
+          <cena>128 Kč</cena>
+          <porce>170g</porce>
+        </hj1>
+        <hj2>
+          <název>Švestkové knedlíky s mákem, cukrem a máslem</název>
+          <alergeny:alergen>A1,A3,A7</alergeny:alergen>
+          <cena>120 Kč</cena>
+          <porce>400g</porce>
+        </hj2>
+        <hj3>
+          <název>Zbojnická vepřová plec s klobásou, karlovarský knedlík</název>
+          <alergeny:alergen>A1,A3,A7</alergeny:alergen>
+          <cena>135 Kč</cena>
+          <porce>150g</porce>
+        </hj3>
+        <hj4>
+          <název>Rybí filet v bylinkové krustě, bramborové pyré s pečeným česnekem</název>
+          <alergeny:alergen>A1,A4,A7</alergeny:alergen>
+          <cena>zdarma</cena>
+          <porce>120g</porce>
+        </hj4>
+      </hlavní_jídla>
+      <polévka>
+        <typ_jidla>polévka</typ_jidla>
+        <p1>
+          <název>Kuřecí vývar s drožďovým kapáním</název>
+          <alergeny:alergen>A1,A3,A7,A9</alergeny:alergen>
+          <cena>28 Kč</cena>
+          <porce>0,25l</porce>
+        </p1>
+      </polévka>
+    </Čtvrtek>
+    <Pátek>
+      <den>Pátek</den>
+      <hlavní_jídla>
+        <typ_jidla>Hlavní jídla</typ_jidla>
+        <hj1>
+          <název>Klopsy z mletého masa po srbsku, dušená rýže</název>
+          <alergeny:alergen>A1,A3,A7</alergeny:alergen>
+          <cena>128 Kč</cena>
+          <porce>150g</porce>
+        </hj1>
+        <hj2>
+          <název>Šoulet z krupek a hrachu se smaženou cibulkou a pečeným rajčetem</název>
+          <alergeny:alergen>A1</alergeny:alergen>
+          <cena>120 Kč</cena>
+          <porce>380g</porce>
+        </hj2>
+        <hj3>
+          <název>Pražská hovězí pečeně, houskový knedlík</název>
+          <alergeny:alergen>A1,A3</alergeny:alergen>
+          <cena>135 Kč</cena>
+          <porce>150g</porce>
+        </hj3>
+        <hj4>
+          <název>Smažená kuřecí kapsa s modrým sýrem, bramborová kaše</název>
+          <alergeny:alergen>A1,A3,A7</alergeny:alergen>
+          <cena>145 Kč</cena>
+          <porce>150g</porce>
+        </hj4>
+      </hlavní_jídla>
+      <polévka>
+        <typ_jidla>polévka</typ_jidla>
+        <p1>
+          <název>Staročeské kyselo</název>
+          <alergeny:alergen>A1,A7</alergeny:alergen>
+          <cena>28 Kč</cena>
+          <porce>0,25l</porce>
+        </p1>
+      </polévka>
+    </Pátek>
+  </od26_2>
+</jidelnicek>
